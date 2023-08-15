@@ -96,22 +96,22 @@ function Appbar() {
                 <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>About</p> <BsChevronDown />
                 </li>
-                <li className="flex space-x-3 justify-between items-center cursor-pointer active:border-b-2 pb-4 border-blue-700">
+                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>Markets</p> <BsChevronDown />
                 </li>
-                <li className="flex space-x-3 justify-between items-center cursor-pointer active:border-b-2 pb-4 border-blue-700">
+                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>Services</p> <BsChevronDown />
                 </li>
-                <li className="flex space-x-3 justify-between items-center cursor-pointer active:border-b-2 pb-4 border-blue-700">
+                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>Products</p> <BsChevronDown />
                 </li>
-                <li className="flex space-x-3 justify-between items-center cursor-pointer active:border-b-2 pb-4 border-blue-700">
+                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>Lifecycle</p> <BsChevronDown />
                 </li>
-                <li className="flex space-x-3 justify-between items-center cursor-pointer active:border-b-2 pb-4 border-blue-700">
+                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>Parts Store</p> <BsChevronDown />
                 </li>
-                <li className="flex space-x-3 justify-between items-center cursor-pointer active:border-b-2 pb-4 border-blue-700">
+                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>ServTech</p>
                 </li>
               </ul>
