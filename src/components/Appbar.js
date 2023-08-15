@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
 
 function Appbar() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   return (
     <div>
       <div className="bg-white mt-2 px-4 md:px-1 mb-2 w-full shadow-md">
