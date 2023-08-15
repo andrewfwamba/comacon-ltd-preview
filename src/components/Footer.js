@@ -137,7 +137,7 @@ function Footer() {
           &copy; {new Date().getFullYear()} The Comacon Group Inc | Terms and
           Conditions | Privacy Policy
         </p>{" "}
-        <div className="flex w-fit space-x-2 text-gray-400 md:space-x-4 mt-6 md:mt-0">
+        <div className="flex w-fit space-x-1 text-gray-400 md:space-x-4 mt-6 md:mt-0">
           <a href="/" className="flex space-x-2 justify-center items-center">
             <AiFillLinkedin className="text-gray-600 text-[15px] " />{" "}
             <p className="text-[14px]">LinkedIn</p>
@@ -202,10 +202,10 @@ function Footer() {
             <Form.Item
               name="weekly"
               valuePropName="checked"
-              wrapperCol={{
-                offset: 8,
-                span: 16,
-              }}
+              // wrapperCol={{
+              //   offset: 8,
+              //   span: 16,
+              // }}
             >
               <Checkbox>Receive weekly Insights</Checkbox>
             </Form.Item>
