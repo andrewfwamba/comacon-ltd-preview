@@ -233,7 +233,7 @@ function Home() {
       </div>
       {/* Keep upto date */}
       <div className="text-center text-gray-700 my-8 flex justify-center items-center">
-        <div className="flex flex-col justify-center items-center border border-gray-300 rounded shadow-lg w-2/3 md:p-10">
+        <div className="flex flex-col justify-center items-center border border-gray-300 rounded shadow-lg w-[80%] md:w-2/3 p-10 md:p-10">
           <p className="text-gray-500 mb-10">
             Keep up to date with where we are and what we're up to - Follow us
             on social media
