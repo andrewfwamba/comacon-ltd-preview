@@ -26,7 +26,7 @@ function Footer() {
 
   return (
     <div className="">
-      <div className="flex  w-2/3 mx-auto my-8">
+      <div className="flex w-2/3 mx-auto my-8">
         <div className="">
           <p
             onClick={showModal}
@@ -36,10 +36,10 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className="bg-black/80 p-10">
-        <div className="grid md:grid-cols-4 w-2/3 mx-auto text-gray-200">
+      <div className="bg-black/80 p-2 md:p-10">
+        <div className="grid gap-4 grid-cols-2 md:grid-cols-4 w-full px-8 md:w-2/3 mx-auto text-gray-200">
           <div>
-            <p className="text-[20px] underline">Link Group 1</p>
+            <p className="text-[18px] underline">Link Group 1</p>
             <div>
               <ul>
                 <li className="cursor-pointer my-2 text-[14px]">
@@ -63,7 +63,7 @@ function Footer() {
           </div>
 
           <div>
-            <p className="text-[20px] underline">Link Group 2</p>
+            <p className="text-[18px] underline">Link Group 2</p>
             <div>
               <ul>
                 <li className="cursor-pointer my-2 text-[14px]">
@@ -86,7 +86,7 @@ function Footer() {
           </div>
 
           <div>
-            <p className="text-[20px] underline">Link Group 3</p>
+            <p className="text-[18px] underline">Link Group 3</p>
             <div>
               <ul>
                 <li className="cursor-pointer my-2 text-[14px]">
@@ -109,7 +109,7 @@ function Footer() {
           </div>
 
           <div>
-            <p className="text-[20px] underline">Link Group 4</p>
+            <p className="text-[18px] underline">Link Group 4</p>
             <div>
               <ul>
                 <li className="cursor-pointer my-2 text-[14px]">
@@ -132,25 +132,25 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between w-2/3 mx-auto my-4 text-[18px] font-[500]">
-        <p className="text-[14px] text-gray-500">
+      <div className="flex-col md:flex justify-between mt-6 md:mt-0 w-full px-2 md:w-2/3 mx-auto my-4 text-[18px] font-[500]">
+        <p className="text-[12px] text-gray-500">
           &copy; {new Date().getFullYear()} The Comacon Group Inc | Terms and
           Conditions | Privacy Policy
         </p>{" "}
-        <div className="flex space-x-4">
-          <a href="/" className="flex space-x-3 justify-center items-center">
+        <div className="flex w-fit space-x-2 text-gray-400 md:space-x-4 mt-6 md:mt-0">
+          <a href="/" className="flex space-x-2 justify-center items-center">
             <AiFillLinkedin className="text-gray-600 text-[15px] " />{" "}
             <p className="text-[14px]">LinkedIn</p>
           </a>
-          <a href="/" className="flex space-x-3 justify-center items-center">
+          <a href="/" className="flex space-x-2 justify-center items-center">
             <BiLogoFacebook className="text-gray-600 text-[15px] " />
             <p className="text-[14px]">Facebook</p>
           </a>
-          <a href="/" className="flex space-x-3 justify-center items-center">
+          <a href="/" className="flex space-x-2 justify-center items-center">
             <BsTwitter className="text-gray-600 text-[15px] " />
             <p className="text-[14px]">Twitter</p>
           </a>
-          <a href="/" className="flex space-x-3 justify-center items-center">
+          <a href="/" className="flex space-x-2 justify-center items-center">
             <BsInstagram className="text-gray-600 text-[15px] " />
             <p className="text-[14px]">Instagram</p>
           </a>
