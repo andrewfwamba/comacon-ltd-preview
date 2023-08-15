@@ -12,7 +12,7 @@ function Home() {
       <Carousel dotPosition="bottom" autoplay>
         {/* first caroussel */}
         <div className="h-[18rem] overflow-hidden relative bg-first">
-          <div className="pl-10 absolute top-4 left-4 w-[25%] bg-white z-10">
+          <div className="pl-10 absolute top-0 left-0 md:top-4 md:left-4 h-full w-[50%] md:w-[25%] mdLbg-white bg-white/50 z-10">
             <p className="font-[600] text-[18px] text-gray-800">
               Conveyance Solutions
             </p>
@@ -27,7 +27,7 @@ function Home() {
         </div>
         {/* second carousel */}
         <div className="h-[18rem] overflow-hidden relative bg-second">
-          <div className="pl-10 absolute top-4 left-4 w-[25%] bg-white z-10">
+          <div className="pl-10 absolute top-0 left-0 md:top-4 md:left-4 h-full w-[50%] md:w-[25%] mdLbg-white bg-white/50 z-10">
             <p className="font-[600] text-[18px] text-gray-800">
               Regionally Located Offices
             </p>
@@ -41,7 +41,7 @@ function Home() {
         </div>
         {/* Third carousel */}
         <div className="h-[18rem] overflow-hidden relative bg-third">
-          <div className="pl-10 absolute top-4 left-4 w-[25%] bg-white z-10">
+          <div className="pl-10 absolute top-0 left-0 md:top-4 md:left-4 h-full w-[50%] md:w-[25%] mdLbg-white bg-white/50 z-10">
             <p className="font-[600] text-[18px] text-gray-800">
               Regionally Located Offices
             </p>
@@ -54,8 +54,8 @@ function Home() {
           <div className="bg-amber-400 h-[2rem]"></div>
         </div>
       </Carousel>
-      <div className="grid md:grid-cols-2 gap-4 my-8 p-5">
-        <div className="rounded shadow-lg p-10">
+      <div className="grid lg:grid-cols-2 gap-4 my-8 p-5">
+        <div className="rounded shadow-lg p-2 md:p-10">
           <p className="mt-1 font-bold text-lg text-gray-700">
             Why Comacon & Associates?
           </p>
@@ -87,7 +87,7 @@ function Home() {
           />
         </div>
       </div>
-      <div className="px-8 md:px-28 text-center">
+      <div className="px-4 md:px-28 text-center">
         <h1 className="font-[400] text-2xl text-gray-700">
           With over 30 years of turnkey project execution, Comacon is an
           industry leader in engineering, manufacturing, and installation of
@@ -95,11 +95,11 @@ function Home() {
         </h1>
       </div>
       <div className="my-4 bg-[url('https://unsplash.com/photos/HpPmiduLDC0/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8ZmFjdG9yeXxlbnwwfHx8fDE2OTIwNDYyMzZ8MA&force=true&w=1920')]">
-        <div className="w-full px-28 py-20 text-gray-200 h-full bg-blue-950/80">
+        <div className="w-full px-6 lg:px-28 py-20 text-gray-200 h-full bg-blue-950/80">
           <div className="border-b border-gray-200 text-center">
             <p className="text-2xl mb-4">Services and Features</p>
           </div>
-          <div className="grid md:grid-cols-4 mt-5 gap-4 border-b border-gray-200 pb-8">
+          <div className="grid lg:grid-cols-4 mt-5 gap-4 border-b border-gray-200 pb-8">
             <div>
               <img
                 src={require("../assets/images/Services.png")}
@@ -160,7 +160,7 @@ function Home() {
         <p className="font-[500] text-[24px] text-gray-600">Featured News</p>
       </div>
       {/* Featured body */}
-      <div className="md:px-32 my-4">
+      <div className="px-4 w-full md:px-32 my-4">
         <div className="grid md:grid-cols-4 gap-4">
           <div>
             <img
@@ -257,7 +257,7 @@ function Home() {
       </div>
       {/* Why section */}
       <div className="my-4 flex justify-center items-center bg-[url('https://unsplash.com/photos/hkJNx0EDbjE/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjkyMDgwOTQ3fA&force=true&w=1920')]">
-        <div className="w-full px-28 py-20 text-gray-200 h-full bg-blue-950/80">
+        <div className="w-full px-8 md:px-28 py-20 text-gray-200 h-full bg-blue-950/80">
           <div className=" border-gray-200 text-center">
             <p className="text-2xl mb-4">
               Why Prefabrication, Preassembly, and Modularization?
@@ -271,7 +271,7 @@ function Home() {
                 className="h-[10rem] w-auto"
               />
 
-              <p className="mt-8 text-gray-200 font-[300] mr-10">
+              <p className="mt-8 text-gray-200 text-center md:text-left font-[300] md:mr-10">
                 The key to success in prefabricated, preassembled, modularized
                 project execution lies in thorough front-end planning. Roeslein
                 guides clients through the early stages of a project by
@@ -286,7 +286,7 @@ function Home() {
                 alt=""
                 className="h-[10rem] w-auto"
               />
-              <p className="mt-8 text-gray-200 font-[300] mr-10">
+              <p className="mt-8 text-gray-200 text-center md:text-left font-[300] md:mr-10">
                 Comacon's unique approach to the modular design-build
                 construction process is to provide clients with a
                 high-performance, integrated solution that allows for a greater
@@ -302,7 +302,7 @@ function Home() {
                 className="h-[10rem] w-auto"
               />
 
-              <p className="mt-8 text-gray-200 font-[300] mr-10">
+              <p className="mt-8 text-gray-200 text-center md:text-left font-[300] md:mr-10">
                 Comacon's project management teams guide projects from
                 conceptual design all the way through to project start-up and
                 commissioning. Acute involvement in all aspects of project
@@ -315,9 +315,9 @@ function Home() {
         </div>
       </div>
       {/* CEO Quote */}
-      <div className="w-2/3 mx-auto grid md:grid-cols-2 mt-20 mb-8">
+      <div className="w-full md:w-4/5 mx-auto grid md:grid-cols-2 mt-20 mb-8">
         <div>
-          <p className="w-2/3 mx-auto text-[20px] font-[300]">
+          <p className="w-full px-8 py-4 md:p-0 mx-auto text-[20px] font-[300]">
             Because Comacon separates process implementation from facility
             construction the effects of delays and unforeseen circumstances on
             installation timetables are minimized. No matter what the project's
@@ -327,7 +327,7 @@ function Home() {
             results.
           </p>
         </div>
-        <div className="border-t border-gray-600 pt-8">
+        <div className="border-t border-gray-600 px-4 pt-8">
           <p className="text-gray-600 text-[20px] font-[300] border-b border-gray-800 pb-10 mb-8">
             “When you practice something over and over again until it's perfect,
             you end up with a team that's capable of so much more than just the
