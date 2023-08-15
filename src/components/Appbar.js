@@ -42,7 +42,7 @@ function Appbar() {
         <div className="block md:hidden py-2">
           <div className="flex w-full justify-between ">
             <div>
-              <p>Comacon Ltd</p>
+              <p className="text-gray-500">Comacon&trade;</p>
             </div>
             <div onClick={() => setOpen(!open)}>
               {open ? (
