@@ -5,7 +5,7 @@ function Appbar() {
   const [open, setOpen] = useState(true);
   return (
     <div>
-      <div className="bg-white mt-2 px-4 md:px-1 mb-8 w-full shadow-md">
+      <div className="bg-white mt-2 px-4 md:px-1 mb-2 w-full shadow-md">
         {/* Desktop menu */}
         <div className="space-x-8 ml-10 hidden py-2 md:block">
           <div className="flex justify-between">
