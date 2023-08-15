@@ -10,7 +10,13 @@ function Appbar() {
         <div className="space-x-8 ml-10 hidden py-2 md:block">
           <div className="flex justify-between">
             <div className="text-gray-500">
-              <a href="/">Comacon &trade;</a>
+              <a href="/">
+                <img
+                  src={require("../assets/images/logocomacon.jpg")}
+                  alt=""
+                  className="h-10 w-auto"
+                />
+              </a>
             </div>
             <ul className="flex space-x-4 tracking-tight text-gray-900 font-[300]">
               <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
@@ -42,7 +48,13 @@ function Appbar() {
         <div className="block md:hidden py-2">
           <div className="flex w-full justify-between ">
             <div>
-              <p className="text-gray-500">Comacon&trade;</p>
+              <a href="/">
+                <img
+                  src={require("../assets/images/logocomacon.jpg")}
+                  alt=""
+                  className="h-8 w-auto"
+                />
+              </a>
             </div>
             <div onClick={() => setOpen(!open)}>
               {open ? (
