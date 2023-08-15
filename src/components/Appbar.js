@@ -7,7 +7,7 @@ function Appbar() {
     <div>
       <div className="bg-white mt-2 px-4 md:px-1 mb-8 w-full shadow-md">
         {/* Desktop menu */}
-        <div className="space-x-8 ml-10 hidden md:block">
+        <div className="space-x-8 ml-10 hidden py-2 md:block">
           <div className="flex justify-between">
             <div className="text-gray-500">
               <a href="/">Comacon &trade;</a>
@@ -81,7 +81,7 @@ function Appbar() {
           {open && (
             <div>
               <ul className="flex flex-col mt-5 bg-white w-full text-gray-900 font-[300]">
-                <li className="flex space-x-3 justify-left items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
+                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>About</p> <BsChevronDown />
                 </li>
                 <li className="flex space-x-3 justify-between items-center cursor-pointer active:border-b-2 pb-4 border-blue-700">
