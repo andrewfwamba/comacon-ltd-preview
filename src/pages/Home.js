@@ -54,7 +54,7 @@ function Home() {
           <div className="bg-amber-400 h-[2rem]"></div>
         </div>
       </Carousel>
-      <div className="grid lg:grid-cols-2 gap-4 my-8 p-5">
+      <div className="grid lg:grid-cols-2 gap-4 my-8 p-5 animate__animated animate__fadeInRight">
         <div className="rounded shadow-lg p-2 md:p-10">
           <p className="mt-1 font-bold text-lg text-gray-700">
             Why Comacon & Associates?
