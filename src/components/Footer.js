@@ -137,20 +137,20 @@ function Footer() {
           &copy; {new Date().getFullYear()} The Comacon Group Inc | Terms and
           Conditions | Privacy Policy
         </p>{" "}
-        <div className="flex w-fit space-x-1 text-gray-400 md:space-x-4 mt-6 md:mt-0">
-          <a href="/" className="flex space-x-2 justify-center items-center">
+        <div className="flex w-fit space-x-2 text-gray-400 md:space-x-4 mt-6 md:mt-0">
+          <a href="/" className="flex space-x-1 justify-center items-center">
             <AiFillLinkedin className="text-gray-600 text-[15px] " />{" "}
             <p className="text-[14px]">LinkedIn</p>
           </a>
-          <a href="/" className="flex space-x-2 justify-center items-center">
+          <a href="/" className="flex space-x-1 justify-center items-center">
             <BiLogoFacebook className="text-gray-600 text-[15px] " />
             <p className="text-[14px]">Facebook</p>
           </a>
-          <a href="/" className="flex space-x-2 justify-center items-center">
+          <a href="/" className="flex space-x-1 justify-center items-center">
             <BsTwitter className="text-gray-600 text-[15px] " />
             <p className="text-[14px]">Twitter</p>
           </a>
-          <a href="/" className="flex space-x-2 justify-center items-center">
+          <a href="/" className="flex space-x-1 justify-center items-center">
             <BsInstagram className="text-gray-600 text-[15px] " />
             <p className="text-[14px]">Instagram</p>
           </a>
