@@ -12,7 +12,7 @@ function Home() {
       <Carousel dotPosition="bottom" autoplay>
         {/* first caroussel */}
         <div className="h-[18rem] overflow-hidden relative bg-first">
-          <div className="pl-10 absolute top-0 left-0 md:top-4 md:left-4 h-full w-[50%] md:w-[25%] mdLbg-white bg-white/50 z-10">
+          <div className="pl-10 absolute top-0 md:pt-2 pt-10 left-0 md:top-4 md:left-4 h-full w-full md:w-[25%] mdLbg-white bg-white/50 z-10">
             <p className="font-[600] text-[18px] text-gray-800">
               Conveyance Solutions
             </p>
@@ -22,12 +22,12 @@ function Home() {
               handling applications.
             </p>
           </div>
-          <div className="bg-white/90 -skew-x-[30deg] shadow-r w-1/2 h-full"></div>
+          <div className="bg-white/90 hidden md:block -skew-x-[30deg] shadow-r w-1/2 h-full"></div>
           <div className="bg-blue-400 h-[2rem]"></div>
         </div>
         {/* second carousel */}
         <div className="h-[18rem] overflow-hidden relative bg-second">
-          <div className="pl-10 absolute top-0 left-0 md:top-4 md:left-4 h-full w-[50%] md:w-[25%] mdLbg-white bg-white/50 z-10">
+          <div className="pl-10 absolute top-0 md:pt-2 pt-10 left-0 md:top-4 md:left-4 h-full w-full md:w-[25%] mdLbg-white bg-white/50 z-10">
             <p className="font-[600] text-[18px] text-gray-800">
               Regionally Located Offices
             </p>
@@ -36,12 +36,12 @@ function Home() {
               its clients in more than 60 countries on six continents.
             </p>
           </div>
-          <div className="bg-white/90 -skew-x-[30deg] shadow-r w-1/2 h-full"></div>
+          <div className="bg-white/90 hidden md:block -skew-x-[30deg] shadow-r w-1/2 h-full"></div>
           <div className="bg-amber-400 h-[2rem]"></div>
         </div>
         {/* Third carousel */}
         <div className="h-[18rem] overflow-hidden relative bg-third">
-          <div className="pl-10 absolute top-0 left-0 md:top-4 md:left-4 h-full w-[50%] md:w-[25%] mdLbg-white bg-white/50 z-10">
+          <div className="pl-10 absolute top-0  md:pt-2 pt-10 left-0 md:top-4 md:left-4 h-full w-full md:w-[25%] mdLbg-white bg-white/50 z-10">
             <p className="font-[600] text-[18px] text-gray-800">
               Regionally Located Offices
             </p>
@@ -50,7 +50,7 @@ function Home() {
               its clients in more than 60 countries on six continents.
             </p>
           </div>
-          <div className="bg-white/90 -skew-x-[30deg] shadow-r w-2/6 h-full"></div>
+          <div className="bg-white/90 md:block hidden -skew-x-[30deg] shadow-r w-2/6 h-full"></div>
           <div className="bg-amber-400 h-[2rem]"></div>
         </div>
       </Carousel>
