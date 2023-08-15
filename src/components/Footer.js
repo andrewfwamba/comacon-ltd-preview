@@ -132,7 +132,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex-col md:flex justify-between mt-6 md:mt-0 w-full px-2 mx-auto my-4 text-[18px] font-[500]">
+      <div className="flex md:flex-row flex-col justify-between mt-6 md:mt-4 w-full px-2 mx-auto my-4 text-[18px] font-[500]">
         <p className="text-[12px] text-gray-500">
           &copy; {new Date().getFullYear()} The Comacon Group Inc | Terms and
           Conditions | Privacy Policy
