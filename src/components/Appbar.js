@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsChevronDown } from "react-icons/bs";
+import { BsChevronDown, BsSearch } from "react-icons/bs";
 
 function Appbar() {
   const [open, setOpen] = useState(false);
@@ -18,7 +18,7 @@ function Appbar() {
                 />
               </a>
             </div>
-            <ul className="flex space-x-4 tracking-tight text-gray-900 font-[300]">
+            <ul className="flex space-x-4 tracking-tight pr-[5rem] text-gray-900 font-[300]">
               <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                 <p>About</p> <BsChevronDown />
               </li>
@@ -32,13 +32,11 @@ function Appbar() {
                 <p>Products</p> <BsChevronDown />
               </li>
               <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                <p>Lifecycle</p> <BsChevronDown />
+                <p>Our projects</p> <BsChevronDown />
               </li>
-              <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                <p>Parts Store</p> <BsChevronDown />
-              </li>
-              <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                <p>ServTech</p>
+              <li className="flex justify-center items-center cursor-pointer border rounded px-2 border-blue-700/50">
+                <BsSearch className="text-gray-500" />
+                <input placeholder="Search" className="outline-none p-1" />
               </li>
             </ul>
           </div>
@@ -106,13 +104,14 @@ function Appbar() {
                   <p>Products</p> <BsChevronDown />
                 </li>
                 <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                  <p>Lifecycle</p> <BsChevronDown />
+                  <p>Our projects</p> <BsChevronDown />
                 </li>
-                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                  <p>Parts Store</p> <BsChevronDown />
-                </li>
-                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                  <p>ServTech</p>
+                <li className="flex justify-between items-center cursor-pointer border rounded px-2 hover:border-blue-700/50 border-blue-700/20">
+                  <BsSearch className="text-gray-500 mr-2" />
+                  <input
+                    placeholder="Search"
+                    className="outline-none p-1 w-full"
+                  />
                 </li>
               </ul>
             </div>
