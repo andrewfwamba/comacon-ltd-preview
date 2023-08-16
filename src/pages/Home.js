@@ -54,8 +54,8 @@ function Home() {
           <div className="bg-amber-400 h-[2rem]"></div>
         </div>
       </Carousel>
-      <div className="grid lg:grid-cols-2 gap-4 my-8 p-5 animate__animated animate__fadeInRight">
-        <div className="rounded shadow-lg p-2 md:p-10">
+      <div className="grid lg:grid-cols-2 gap-4 my-8 p-2 md:p-5 animate__animated animate__fadeInRight">
+        <div className="rounded shadow-lg p-2 bg-green-600/30 md:p-10">
           <p className="mt-1 font-bold text-lg text-gray-700">
             Why Comacon & Associates?
           </p>
@@ -106,11 +106,12 @@ function Home() {
                 alt=""
                 className="h-[10rem] w-auto"
               />
-              <p className="text-[1.8rem] font-[400] mt-8">Services</p>
+              <p className="text-[1.8rem] font-[400] mt-8">
+                Creditable Integrity
+              </p>
               <p>
-                Comacon & Associates provides consulting, procurement, and
-                project management services on top of its engineering,
-                manufacturing and construction capabilities.
+                Over the years, we have gained a reputation for integrity and
+                trust from our customers.
               </p>
             </div>
             <div>
@@ -119,11 +120,12 @@ function Home() {
                 alt=""
                 className="h-[10rem] w-auto"
               />
-              <p className="text-[1.8rem] font-[400] mt-8">Parts</p>
+              <p className="text-[1.8rem] font-[400] mt-8">
+                Adaptability & Flexibility
+              </p>
               <p>
-                Never let your operations come to a halt, be prepared when the
-                unexpected happens with Comacon's comprehensive & easy to
-                navigate online parts store.
+                Understanding our clients has given us the opportunity to adopt
+                various engineering requirements to meet project demand.
               </p>
             </div>
             <div>
@@ -132,11 +134,12 @@ function Home() {
                 alt=""
                 className="h-[10rem] w-auto"
               />
-              <p className="text-[1.8rem] font-[400] mt-8">Support</p>
+              <p className="text-[1.8rem] font-[400] mt-8">
+                Customer Satisfaction
+              </p>
               <p>
-                Comacon's lifecycle support division serves as a strategic
-                partner to clients by offering field services, assessments,
-                training, upgrades/modifications and more.
+                we believe that the “CUSTOMER is the KING” and our work is never
+                complete without the final nod of approval from our clients.
               </p>
             </div>
             <div>
@@ -145,11 +148,13 @@ function Home() {
                 alt=""
                 className="h-[10rem] w-auto"
               />
-              <p className="text-[1.8rem] font-[400] mt-8">Products</p>
+              <p className="text-[1.8rem] font-[400] mt-8">
+                Continuous Learning
+              </p>
               <p>
-                In addition to offering fully integrated turnkey systems,
-                Comacon offers a variety of product solutions that are
-                customized to client's needs & specifications.
+                We believe in integrating the latest in construction and
+                engineering technology to ensure that our projects are not
+                compromised by disruptions or obsolescence.
               </p>
             </div>
           </div>
