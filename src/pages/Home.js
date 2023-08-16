@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 function Home() {
   return (
-    <div>
+    <div className="bg-gray-200/50">
       <Carousel dotPosition="bottom" autoplay>
         {/* first caroussel */}
         <div className="h-[18rem] overflow-hidden relative bg-first">
@@ -82,7 +82,7 @@ function Home() {
         <div className="w-full p-5">
           <img
             src={require("../assets/images/worldmap.jpg")}
-            className="h-full w-auto"
+            className="h-full w-auto rounded shadow"
             alt=""
           />
         </div>
