@@ -5,7 +5,7 @@ function Appbar() {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      <div className="bg-white mt-2 px-4 md:px-1 mb-2 w-full shadow-md">
+      <div className="bg-gray-200/50 pt-2 px-4 md:px-1 mb-2 w-full shadow-md">
         {/* Desktop menu */}
         <div className="space-x-8 ml-10 hidden py-2 md:block">
           <div className="flex justify-between">
@@ -18,7 +18,7 @@ function Appbar() {
                 />
               </a>
             </div>
-            <ul className="flex space-x-4 tracking-tight pr-[5rem] text-gray-900 font-[300]">
+            <ul className="flex space-x-4 tracking-tight pr-[5rem]  text-gray-900 font-[300]">
               <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                 <p>About</p> <BsChevronDown />
               </li>
@@ -34,7 +34,7 @@ function Appbar() {
               <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                 <p>Our projects</p> <BsChevronDown />
               </li>
-              <li className="flex justify-center items-center cursor-pointer border rounded px-2 border-blue-700/50">
+              <li className="flex justify-center items-center bg-white cursor-pointer border rounded px-2 border-blue-700/50">
                 <BsSearch className="text-gray-500" />
                 <input placeholder="Search" className="outline-none p-1" />
               </li>
@@ -90,7 +90,7 @@ function Appbar() {
           </div>
           {open && (
             <div>
-              <ul className="flex flex-col mt-5 bg-white w-full text-gray-900 font-[300]">
+              <ul className="flex flex-col mt-5 w-full text-gray-900 font-[300]">
                 <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>About</p> <BsChevronDown />
                 </li>
@@ -106,7 +106,7 @@ function Appbar() {
                 <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>Our projects</p> <BsChevronDown />
                 </li>
-                <li className="flex justify-between items-center cursor-pointer border rounded px-2 hover:border-blue-700/50 border-blue-700/20">
+                <li className="flex justify-between items-center bg-white cursor-pointer border rounded px-2 hover:border-blue-700/50 border-blue-700/20">
                   <BsSearch className="text-gray-500 mr-2" />
                   <input
                     placeholder="Search"
