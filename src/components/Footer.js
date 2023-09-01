@@ -36,7 +36,7 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className="bg-black/80 p-2 md:p-10">
+      <div className="bg-[rgb(40,43,47)]/60 p-2 md:p-10">
         <div className="grid gap-4 grid-cols-2 md:grid-cols-4 w-full px-8 md:w-2/3 mx-auto text-gray-200">
           <div>
             <p className="text-[18px] underline">Link Group 1</p>
