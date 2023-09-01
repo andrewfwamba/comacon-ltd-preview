@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { BsChevronDown, BsSearch } from "react-icons/bs";
+import { Outlet } from "react-router-dom";
+import Footer from "./Footer";
 
 function Appbar() {
   const [open, setOpen] = useState(false);
@@ -18,23 +20,25 @@ function Appbar() {
                 />
               </a>
             </div>
-            <ul className="flex space-x-4 tracking-tight pr-[5rem]  text-gray-900 font-[300]">
+            <ul className="flex space-x-4 tracking-tight pr-[5rem]  text-gray-900 font-[500]">
               <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                <p>About</p> <BsChevronDown />
+                <p>Home</p>
               </li>
               <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                <p>Markets</p> <BsChevronDown />
+                <p>About Us</p>
               </li>
               <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                <p>Services</p> <BsChevronDown />
+                <p>Our Services</p> <BsChevronDown />
               </li>
+
               <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                <p>Products</p> <BsChevronDown />
+                <p>Our Projects</p>
               </li>
-              <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                <p>Our projects</p> <BsChevronDown />
+
+              <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
+                <p>Contact Us</p>
               </li>
-              <li className="flex justify-center items-center bg-white cursor-pointer border rounded px-2 border-blue-700/50">
+              <li className="flex justify-center items-center bg-white cursor-pointer border rounded px-2 mx-2 border-blue-700/50">
                 <BsSearch className="text-gray-500" />
                 <input placeholder="Search" className="outline-none p-1" />
               </li>
@@ -92,19 +96,20 @@ function Appbar() {
             <div>
               <ul className="flex flex-col mt-5 w-full text-gray-900 font-[300]">
                 <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                  <p>About</p> <BsChevronDown />
+                  <p>Home</p>
                 </li>
                 <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                  <p>Markets</p> <BsChevronDown />
+                  <p>About Us</p>
                 </li>
                 <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                  <p>Services</p> <BsChevronDown />
+                  <p>Our Services</p> <BsChevronDown />
                 </li>
-                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                  <p>Products</p> <BsChevronDown />
+                <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
+                  <p>Our Projects</p>
                 </li>
+
                 <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
-                  <p>Our projects</p> <BsChevronDown />
+                  <p>Contact Us</p>
                 </li>
                 <li className="flex justify-between items-center bg-white cursor-pointer border rounded px-2 hover:border-blue-700/50 border-blue-700/20">
                   <BsSearch className="text-gray-500 mr-2" />
@@ -118,6 +123,8 @@ function Appbar() {
           )}
         </div>
       </div>
+      <Outlet />
+      <Footer />
     </div>
   );
 }
