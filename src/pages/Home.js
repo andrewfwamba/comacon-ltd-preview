@@ -9,21 +9,26 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <div className="bg-gray-200/50">
-      <Carousel dotPosition="bottom" autoplay>
+      <Carousel dotPosition="bottom">
         {/* first caroussel */}
-        <div className="h-[18rem] overflow-hidden relative bg-first">
-          <div className="pl-10 absolute top-0 md:pt-2 pt-10 left-0 md:top-4 md:left-4 h-full w-full md:w-[25%] mdLbg-white bg-white/50 z-10">
-            <p className="font-[600] text-[18px] text-gray-800">
-              Conveyance Solutions
+        <div className=" overflow-hidden bg-center bg-[url('https://unsplash.com/photos/SLIFI67jv5k/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8aW5kdXN0cnl8ZW58MHx8fHwxNjkzMTUyMTIxfDA&force=true&w=1920')]">
+          <div className="p-2 flex flex-col justify-center items-center  md:pt-10 pt-10 h-full w-full md:px-[20%]  bg-green-500/50 md:bg-white/10 ">
+            <p className="font-[700] text-[3.5rem] text-[#54B151]">
+              Solution For All Industrial Business
             </p>
-            <p>
-              Learn More Comacon offers innovative conveyance solutions for
-              maximum efficiency, quality, and best overall value for material
-              handling applications.
+            <p className="my-4 text-green-700 text-center md:text-[#fff] font-[500] text-[18px]">
+              A well qualified and experienced team of Civil, Mechanical and
+              Electrical engineers, coupled with an equally experienced and
+              energetic operations team, guarantees value for money solutions of
+              the highest standard.
+            </p>
+
+            <p className="w-fit px-3 py-2 cursor-pointer bg-green-600 hover:bg-green-600/80 rounded shadow-lg my-4  text-gray-200">
+              About Us --{">"}
             </p>
           </div>
-          <div className="bg-white/90 hidden md:block -skew-x-[30deg] shadow-r w-1/2 h-full"></div>
-          <div className="bg-blue-400 h-[2rem]"></div>
+          {/* <div className="bg-white/90 hidden md:block absolute top-0 -left-[10%] -skew-x-[30deg] shadow-r w-1/2 h-full"></div> */}
+          <div className="bg-green-400 h-[2rem]"></div>
         </div>
         {/* second carousel */}
         <div className="h-[18rem] overflow-hidden relative bg-second">
@@ -349,7 +354,6 @@ function Home() {
       {/* Testimonies */}
 
       <Reviews />
-      <Footer />
     </div>
   );
 }
