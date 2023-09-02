@@ -12,18 +12,18 @@ function Home() {
       <Carousel dotPosition="bottom">
         {/* first caroussel */}
         <div className=" overflow-hidden bg-center bg-[url('https://unsplash.com/photos/SLIFI67jv5k/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8aW5kdXN0cnl8ZW58MHx8fHwxNjkzMTUyMTIxfDA&force=true&w=1920')]">
-          <div className="p-2 flex flex-col justify-center items-center  md:pt-10 pt-10 h-full w-full md:px-[20%]  bg-green-500/50 md:bg-white/10 ">
-            <p className="font-[700] text-[3.5rem] text-[#54B151]">
+          <div className="p-2 flex flex-col justify-center items-center  md:pt-10 pt-10 h-full w-full md:px-[20%]  bg-green-500/50 md:bg-black/20 ">
+            <p className="font-[700] animate__animated animate__fadeInRight text-[3.5rem] text-[#54B151]">
               Solution For All Industrial Business
             </p>
-            <p className="my-4 text-green-700 text-center md:text-[#fff] font-[500] text-[18px]">
+            <p className="my-4 animate__animated animate__fadeInRight text-green-700 text-center md:text-[#fff] font-[500] text-[18px]">
               A well qualified and experienced team of Civil, Mechanical and
               Electrical engineers, coupled with an equally experienced and
               energetic operations team, guarantees value for money solutions of
               the highest standard.
             </p>
 
-            <p className="w-fit px-3 py-2 cursor-pointer bg-green-600 hover:bg-green-600/80 rounded shadow-lg my-4  text-gray-200">
+            <p className="w-fit px-3 animate__animated animate__fadeInUp py-2 cursor-pointer bg-green-600 hover:bg-green-600/80 rounded shadow-lg my-4  text-gray-200">
               About Us --{">"}
             </p>
           </div>
@@ -59,7 +59,7 @@ function Home() {
           <div className="bg-amber-400 h-[2rem]"></div>
         </div>
       </Carousel>
-      <div className="grid lg:grid-cols-2 gap-4 my-8 p-2 md:p-5 animate__animated animate__fadeInRight">
+      <div className="grid lg:grid-cols-2 gap-4 my-8 p-2 md:p-5 animate__animated animate__fadeIn">
         <div className="rounded shadow-lg p-2 bg-green-600/30 md:p-10">
           <p className="mt-1 font-bold text-lg text-gray-700">
             Why Comacon & Associates?
