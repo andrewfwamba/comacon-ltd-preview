@@ -267,58 +267,58 @@ function Home() {
       </div>
       {/* Why section */}
       <div className="my-4 flex justify-center items-center bg-[url('https://unsplash.com/photos/hkJNx0EDbjE/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjkyMDgwOTQ3fA&force=true&w=1920')]">
-        <div className="w-full px-8 md:px-28 py-20 text-gray-200 h-full bg-blue-950/80">
+        <div className="w-full px-8 md:px-28 py-20 text-gray-200 h-full bg-green-950/80">
           <div className=" border-gray-200 text-center">
             <p className="text-2xl mb-4">
-              Why Prefabrication, Preassembly, and Modularization?
+              Why Choose Prefabrication, Preassembly, and Modularization?
             </p>
           </div>
-          <div className="grid mx-auto md:grid-cols-3 w-3/4 mt-5 gap-4 border-b border-t border-gray-200 py-8">
+          <div className="grid mx-auto md:grid-cols-3 w-full mt-5 gap-4 border-b border-t border-gray-200 py-8">
             <div>
-              <img
+              {/* <img
                 src={require("../assets/images/Services.png")}
                 alt=""
                 className="h-[10rem] w-auto"
-              />
+              /> */}
 
               <p className="mt-8 text-gray-200 text-center md:text-left font-[300] md:mr-10">
-                The key to success in prefabricated, preassembled, modularized
-                project execution lies in thorough front-end planning. Roeslein
-                guides clients through the early stages of a project by
-                performing capital budgeting, feasibility studies, marketing
-                planning, and process flow diagrams to ensure a smooth project
-                implementation.
+                Preliminary planning is essential for the successful execution
+                of prefabricated, preassembled, and modularized projects.
+                Comacon assists clients in the early phases of a project by
+                carrying out capital budgeting, feasibility studies, marketing
+                planning, and process flow diagrams to guarantee a successful
+                project implementation.
               </p>
             </div>
             <div>
-              <img
+              {/* <img
                 src={require("../assets/images/Parts.png")}
                 alt=""
                 className="h-[10rem] w-auto"
-              />
+              /> */}
               <p className="mt-8 text-gray-200 text-center md:text-left font-[300] md:mr-10">
-                Comacon's unique approach to the modular design-build
-                construction process is to provide clients with a
-                high-performance, integrated solution that allows for a greater
-                return on invested capital by improving design and construction
-                phase productivity, enhancing project quality, and speeding up
-                systems and plant operations deployment.
+                Comacon's distinctive approach to the modular design-build
+                construction process aims to offer clients a high-performance,
+                integrated solution that increases return on invested capital by
+                enhancing project quality, increasing productivity during the
+                design and construction phases, and hastening the deployment of
+                systems and plant operations.
               </p>
             </div>
             <div>
-              <img
+              {/* <img
                 src={require("../assets/images/Tech-Support.png")}
                 alt=""
                 className="h-[10rem] w-auto"
-              />
+              /> */}
 
               <p className="mt-8 text-gray-200 text-center md:text-left font-[300] md:mr-10">
-                Comacon's project management teams guide projects from
-                conceptual design all the way through to project start-up and
-                commissioning. Acute involvement in all aspects of project
-                execution allows Comacon's project management team to cohesively
-                manage customer-driven metrics of cost, schedule, and overall
-                project quality.
+                From conceptual design all the way through project start-up and
+                commissioning, Comacon's project management teams oversee
+                projects. The project management team at Comacon can effectively
+                manage the customer-driven KPIs of cost, schedule, and overall
+                project quality since they are deeply involved in every stage of
+                project execution.
               </p>
             </div>
           </div>
@@ -327,14 +327,14 @@ function Home() {
       {/* CEO Quote */}
       <div className="w-full md:w-4/5 mx-auto grid md:grid-cols-2 mt-20 mb-8">
         <div>
-          <p className="w-full px-8 py-4 md:p-0 mx-auto text-[20px] font-[300]">
-            Because Comacon separates process implementation from facility
-            construction the effects of delays and unforeseen circumstances on
-            installation timetables are minimized. No matter what the project's
-            size or location Comacon's modularized, prefabricated, and
-            preassembled approach provides consistency in the quality of the
-            design, fabrication, installation and, most importantly, the
-            results.
+          <p className="w-full px-8 py-4 text-green-700 md:p-0 mx-auto text-[20px] font-[400] gap-4">
+            Comacon separates process implementation from facility building,
+            minimizing the impact of delays and unanticipated events on
+            installation schedules. The modularized, prefabricated, and
+            preassembled approach used by Comacon ensures consistency in the
+            quality of the design, fabrication, installation, and, most
+            crucially, the outcomes regardless of the project's size or
+            location.
           </p>
         </div>
         <div className="border-t border-gray-600 px-4 pt-8">
