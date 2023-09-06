@@ -104,7 +104,7 @@ function Appbar() {
                 <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>Our Services</p> <BsChevronDown />
                 </li>
-                <li className="flex space-x-3 justify-center items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
+                <li className="flex space-x-3 justify-between items-center cursor-pointer hover:border-b-2 pb-4 border-blue-700">
                   <p>Our Projects</p>
                 </li>
 
