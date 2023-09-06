@@ -4,7 +4,6 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { BiLogoFacebook } from "react-icons/bi";
 import { BsTwitter, BsInstagram } from "react-icons/bs";
 import Reviews from "../components/Reviews";
-import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -60,7 +59,7 @@ function Home() {
         </div>
       </Carousel>
       <div className="grid lg:grid-cols-2 gap-4 my-8 p-2 md:p-5 animate__animated animate__fadeIn">
-        <div className="rounded shadow-lg p-2 bg-green-600/30 md:p-10">
+        <div className="rounded shadow-lg p-2 bg-green-400/30 md:p-10">
           <p className="mt-1 font-bold text-lg text-gray-700">
             Why Comacon & Associates?
           </p>
@@ -100,7 +99,7 @@ function Home() {
         </h1>
       </div>
       <div className="my-4 bg-[url('https://unsplash.com/photos/HpPmiduLDC0/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8ZmFjdG9yeXxlbnwwfHx8fDE2OTIwNDYyMzZ8MA&force=true&w=1920')]">
-        <div className="w-full px-6 lg:px-28 py-20 text-gray-200 h-full bg-blue-950/80">
+        <div className="w-full px-6 lg:px-28 py-20 text-gray-200 h-full bg-green-950/80">
           <div className="border-b border-gray-200 text-center">
             <p className="text-2xl mb-4">Services and Features</p>
           </div>
@@ -347,7 +346,7 @@ function Home() {
             <span className="italic mt-4 text-gray-500 font-[500] text-[18px] px-4 mr-4 border-r border-gray-300">
               Cosmas
             </span>
-            Chairman & CEO of Comacon Group
+            Chairman & Director of Comacon Group
           </p>
         </div>
       </div>
