@@ -1,4 +1,4 @@
-# Comacon ltd Sample home
+# Comacon limited page
 
 ## beta version
 
