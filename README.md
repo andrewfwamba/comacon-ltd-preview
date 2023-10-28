@@ -1,3 +1,5 @@
 # Comacon ltd Sample home
 
-## Preview, links unavailable
+## beta version
+
+#### Going live in 7 days 🚀
