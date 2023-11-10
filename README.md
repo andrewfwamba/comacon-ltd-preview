@@ -2,4 +2,4 @@
 
 ## beta version
 
-#### Going live in 7 days 🚀
+#### Live 🚀
